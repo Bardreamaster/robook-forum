@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "<insert your app name>",
-    "slug": "<insert your app name>",
+    "name": "RobookForum",
+    "slug": "Community of Robook",
     "scheme": "<your-scheme-here>",
     "version": "1.0.0",
     "orientation": "portrait",

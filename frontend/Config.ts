@@ -17,7 +17,7 @@ const config: Config = {
    * to EAS Build.
    */
   localDevelopment: {
-    proseUrl: 'http://localhost:8929',
+    proseUrl: 'https://prose.robook.org',
     inferDevelopmentHost: true, // Specific to local development with Expo Go & the Android simulator. See docs.
   },
   /**
@@ -33,10 +33,10 @@ const config: Config = {
    */
   buildChannels: {
     preview: {
-      proseUrl: 'http://PLACEHOLDER.change.this.to.your.prose.url',
+      proseUrl: 'https://prose.robook.org',
     },
     production: {
-      proseUrl: 'http://PLACEHOLDER.change.this.to.your.prose.url',
+      proseUrl: 'https://prose.robook.org',
     },
   },
 };
