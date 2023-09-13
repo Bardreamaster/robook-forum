@@ -1,21 +1,23 @@
 {
   "expo": {
-    "name": "RobookForum",
-    "slug": "Community of Robook",
-    "scheme": "<your-scheme-here>",
+    "name": "Robook Forum",
+    "slug": "robook-forum",
+    "scheme": "robook-forum",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#003F42"
     },
     "userInterfaceStyle": "automatic",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "packagerOpts": {
       "config": "metro.config.js",
       "sourceExts": [
@@ -41,11 +43,19 @@
     },
     "android": {
       "permissions": [],
-      "versionCode": 1
+      "versionCode": 1,
+      "package": "com.changshan.robookforum"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.ico"
     },
-    "plugins": ["expo-localization"]
+    "plugins": [
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9a36ccbd-6e7c-4b64-853a-9ab3db686860"
+      }
+    }
   }
 }
